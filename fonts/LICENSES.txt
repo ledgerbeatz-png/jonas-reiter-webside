@@ -1,0 +1,9 @@
+Eingebettete Schriften (self-hosted, kein Aufruf externer Font-CDNs):
+
+- Bebas Neue, Copyright (c) 2018 Fontfabric (www.fontfabric.com)
+- Barlow Condensed, Copyright (c) 2017 Jeremy Tribby
+- Source Serif Pro, Copyright 2014-2021 Adobe (http://www.adobe.com/)
+- IBM Plex Mono, Copyright © 2017 IBM Corp.
+
+Alle vier Familien stehen unter der SIL Open Font License 1.1:
+https://scripts.sil.org/OFL
