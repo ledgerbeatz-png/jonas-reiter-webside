@@ -36,7 +36,7 @@ Nach dem Austauschen den Hinweistext „Derzeit in Prüfung bei Amazon. Link fü
 In allen HTML-Dateien steht vor dem ersten Deploy der Platzhalter
 
 ```
-https://SITE_ORIGIN_PLACEHOLDER
+https://jonas-reiter.onrender.com
 ```
 
 in `canonical`, `og:url`, `og:image`, `twitter:image` und im JSON-LD. Nach dem Live-Gang durch die echte Origin ersetzen (ohne abschließenden Schrägstrich), z. B. `https://jonas-reiter.onrender.com`.

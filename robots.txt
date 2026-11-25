@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://SITE_ORIGIN_PLACEHOLDER/sitemap.xml
+Sitemap: https://jonas-reiter.onrender.com/sitemap.xml
