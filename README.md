@@ -4,17 +4,16 @@ Statische Website (HTML/CSS, kein JavaScript) für den Thriller **Der Stream** v
 
 ## Amazon-Links ersetzen
 
-Solange das eBook bei KDP noch geprüft wird und die Produktseiten keine ASIN haben, führen alle Kauf-Buttons auf die Amazon-Suche:
+Das eBook ist live unter:
 
 ```
-https://www.amazon.de/s?k=Der+Stream+Jonas+Reiter
+https://www.amazon.de/dp/B0HP21MBWJ
 ```
 
-**Diese Links müssen ersetzt werden, sobald die ASINs feststehen.**
+Alle Kauf-Buttons (`js-amazon-link`) zeigen derzeit auf diese Seite. Die Taschenbuch-ASIN folgt, sobald das Taschenbuch veröffentlicht ist.
 
 Suchen Sie im Projekt nach der Markierung:
 
-- HTML-Kommentar: `AMAZON-LINK-PLACEHOLDER`
 - CSS-Klasse / Hook: `js-amazon-link`
 
 Betroffene Dateien und Stellen:
@@ -22,14 +21,14 @@ Betroffene Dateien und Stellen:
 | Datei            | Stelle                                      | Empfohlenes Ziel                         |
 | ---------------- | ------------------------------------------- | ---------------------------------------- |
 | `index.html`     | Hero-Button „Bei Amazon kaufen“             | eBook- oder gemeinsame Produktseite      |
-| `index.html`     | Karte „eBook bei Amazon“                    | `https://www.amazon.de/dp/ASIN-EBOOK`    |
+| `index.html`     | Karte „eBook bei Amazon“                    | `https://www.amazon.de/dp/B0HP21MBWJ`    |
 | `index.html`     | Karte „Taschenbuch bei Amazon“              | `https://www.amazon.de/dp/ASIN-TASCHENBUCH` |
 | `leseprobe.html` | Button „Weiterlesen bei Amazon“             | eBook- oder Taschenbuch-ASIN             |
 | `autor.html`     | Button „Bei Amazon kaufen“                  | wie Startseite                           |
 
 Die ISBN des Taschenbuchs lautet **979-8-1458-5611-8** (KDP: `9798145856118`). Sie ist nicht automatisch die Amazon-ASIN.
 
-Nach dem Austauschen den Hinweistext „Derzeit in Prüfung bei Amazon. Link führt vorerst zur Suche.“ auf der Startseite entfernen oder anpassen.
+Die Startseite verweist auf das live eBook. Den Taschenbuch-Button erst umstellen, wenn die Print-Produktseite steht.
 
 ## Open-Graph-URL
 
